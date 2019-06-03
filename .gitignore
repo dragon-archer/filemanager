@@ -1,32 +1,30 @@
-# Prerequisites
-*.d
+# This file is part of the CFM program
+# Copyright (C) 2019 dragon-archer
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Microsoft Visual Studio
+.vs/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Debug libraries
+*.pdb
+*.ipdb
+*.ipch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Build
+build/
+
+# Libraries
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
 *.lib
 
-# Executables
+# Object files
+*.obj
+
+# Precompiled headers
+*.pch
+
+# Executable
 *.exe
-*.out
-*.app
+
+# Log files
+*.log
+*.tlog
