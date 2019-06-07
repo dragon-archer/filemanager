@@ -1,0 +1,11 @@
+trigger:
+- master
+- develop
+
+pool:
+  vmImage: 'windows-2019'
+
+steps:
+- script:
+    echo This is a test.
+  displayName: 'Run a test script'
