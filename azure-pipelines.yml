@@ -1,0 +1,17 @@
+trigger:
+- master
+- develop
+
+pool:
+  vmImage: 'windows-2019'
+
+steps:
+- task: VSBuild@1
+  inputs:
+    solution: 'CFM.sln'
+    vsVersion: '16.0'
+    platform: 'x64'
+    configuration: 'Release'
+    clean: true
+    msbuildArchitecture: 'x64'
+  displayName: 'Make the project by Visual Studio 2019'
