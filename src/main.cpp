@@ -7,3 +7,9 @@
 *            Copyright (C) 2019 dragon-archer
 */
 
+#include "pch.h"
+
+int main()
+{
+	return 0;
+}
